@@ -51,6 +51,7 @@ export function FormikAutocomplete(props: FormikAutocompleteProps) {
               error: hasError(name, form, error),
               helperText: getHelperText(name, form, helperText),
               label
+              {...others}
             }}
             {...others}
           />
